@@ -10,3 +10,15 @@ Lab:
 
 [Video](https://youtu.be/Xo-7VySEm7o?si=nNihWz5JKvd1ak-y)
 
+## AWS Organization
+- Organization Root
+- Management Account
+- OU
+- Service Control Policy (SCP):
+  - Các Accounts hay OU con sẽ inherit permission từ OU cha nếu SCP apply vào OU cha.
+- Billing:
+  - Tập trung trên Management account.
+  - Revert Capacity sẽ được cộng dồn giữa các Account.
+
+AWS không tính phí:
+- Tạo Organization.
